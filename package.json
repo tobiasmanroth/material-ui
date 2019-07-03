@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "shadow-cljs watch app",
+    "release": "shadow-cljs release app"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.0.0-rc.0",
+    "create-react-class": "^15.6.3",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.7.30"
+  }
+}
